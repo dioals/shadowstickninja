@@ -1,0 +1,272 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdf7e17c2c0227a4eb511bc425cdaf71, type: 3}
+  m_Name: SD2_Data
+  m_EditorClassIdentifier: 
+  objectName: GameData
+  Levels:
+  - KnifeForLevel: 0
+    BaloonForLevel: 0
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 10
+    BaloonForLevel: 0
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 5
+    BaloonForLevel: 5
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 0
+    BaloonForLevel: 0
+    BombForLevel: 5
+    Info: 
+  - KnifeForLevel: 10
+    BaloonForLevel: 0
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 6
+    BaloonForLevel: 6
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 0
+    BaloonForLevel: 0
+    BombForLevel: 5
+    Info: 
+  - KnifeForLevel: 6
+    BaloonForLevel: 6
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 0
+    BaloonForLevel: 0
+    BombForLevel: 5
+    Info: 
+  - KnifeForLevel: 5
+    BaloonForLevel: 6
+    BombForLevel: 3
+    Info: 
+  - KnifeForLevel: 20
+    BaloonForLevel: 0
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 10
+    BaloonForLevel: 0
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 6
+    BaloonForLevel: 3
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 20
+    BaloonForLevel: 0
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 15
+    BaloonForLevel: 3
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 0
+    BaloonForLevel: 6
+    BombForLevel: 5
+    Info: 
+  - KnifeForLevel: 8
+    BaloonForLevel: 5
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 0
+    BaloonForLevel: 0
+    BombForLevel: 5
+    Info: 
+  - KnifeForLevel: 6
+    BaloonForLevel: 5
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 6
+    BaloonForLevel: 5
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 5
+    BaloonForLevel: 0
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 15
+    BaloonForLevel: 5
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 5
+    BaloonForLevel: 5
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 0
+    BaloonForLevel: 0
+    BombForLevel: 8
+    Info: 
+  - KnifeForLevel: 10
+    BaloonForLevel: 0
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 10
+    BaloonForLevel: 10
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 0
+    BaloonForLevel: 5
+    BombForLevel: 5
+    Info: 
+  - KnifeForLevel: 15
+    BaloonForLevel: 5
+    BombForLevel: 3
+    Info: 
+  - KnifeForLevel: 6
+    BaloonForLevel: 0
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 20
+    BaloonForLevel: 0
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 0
+    BaloonForLevel: 5
+    BombForLevel: 5
+    Info: 
+  - KnifeForLevel: 5
+    BaloonForLevel: 5
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 20
+    BaloonForLevel: 0
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 20
+    BaloonForLevel: 0
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 15
+    BaloonForLevel: 0
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 0
+    BaloonForLevel: 0
+    BombForLevel: 5
+    Info: 
+  - KnifeForLevel: 10
+    BaloonForLevel: 5
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 10
+    BaloonForLevel: 0
+    BombForLevel: 5
+    Info: 
+  - KnifeForLevel: 15
+    BaloonForLevel: 0
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 0
+    BaloonForLevel: 5
+    BombForLevel: 5
+    Info: 
+  - KnifeForLevel: 5
+    BaloonForLevel: 0
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 0
+    BaloonForLevel: 0
+    BombForLevel: 5
+    Info: 
+  - KnifeForLevel: 10
+    BaloonForLevel: 5
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 8
+    BaloonForLevel: 0
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 0
+    BaloonForLevel: 3
+    BombForLevel: 5
+    Info: 
+  - KnifeForLevel: 20
+    BaloonForLevel: 0
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 0
+    BaloonForLevel: 5
+    BombForLevel: 3
+    Info: 
+  - KnifeForLevel: 10
+    BaloonForLevel: 5
+    BombForLevel: 2
+    Info: 
+  - KnifeForLevel: 10
+    BaloonForLevel: 3
+    BombForLevel: 2
+    Info: 
+  - KnifeForLevel: 5
+    BaloonForLevel: 0
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 10
+    BaloonForLevel: 0
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 6
+    BaloonForLevel: 5
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 10
+    BaloonForLevel: 0
+    BombForLevel: 0
+    Info: 
+  - KnifeForLevel: 5
+    BaloonForLevel: 3
+    BombForLevel: 3
+    Info: 
+  - KnifeForLevel: 0
+    BaloonForLevel: 0
+    BombForLevel: 10
+    Info: 
+  - KnifeForLevel: 0
+    BaloonForLevel: 10
+    BombForLevel: 5
+    Info: 
+  - KnifeForLevel: 0
+    BaloonForLevel: 5
+    BombForLevel: 5
+    Info: 
+  - KnifeForLevel: 0
+    BaloonForLevel: 5
+    BombForLevel: 10
+    Info: 
+  - KnifeForLevel: 0
+    BaloonForLevel: 0
+    BombForLevel: 8
+    Info: 
+  - KnifeForLevel: 0
+    BaloonForLevel: 4
+    BombForLevel: 5
+    Info: 
+  - KnifeForLevel: 0
+    BaloonForLevel: 5
+    BombForLevel: 5
+    Info: 
+  - KnifeForLevel: 0
+    BaloonForLevel: 5
+    BombForLevel: 10
+    Info: 
+  - KnifeForLevel: 0
+    BaloonForLevel: 0
+    BombForLevel: 8
+    Info: 
+  - KnifeForLevel: 0
+    BaloonForLevel: 4
+    BombForLevel: 5
+    Info: 

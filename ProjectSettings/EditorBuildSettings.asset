@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/MainMenu.unity
+    guid: ddbdaba83dbf776408cf6d38654c6dd6
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level1.unity
+    guid: 9bf52156a792e0b4ea4058c457cef5d7
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level2.unity
+    guid: 460fef5bfe1f44649886ee83e7cd7c8d
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level3.unity
+    guid: ec2c5c8938f065847bb84a1d30f43806
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level4.unity
+    guid: e3bff0ccdf5dbba4987b8f969498e283
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level5.unity
+    guid: 532a0ce32d2c85f4292d841b7b9ee4f5
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level6.unity
+    guid: 922170bfb10434540913a40af929ce64
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level7.unity
+    guid: 520f0eb405166ec4a94759c7ee123491
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level8.unity
+    guid: d260de9eddc6ac24f92da8b6045bf146
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level9.unity
+    guid: c30896e6cbe8a0a4787fe7f5c96d55c3
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level10.unity
+    guid: 3e32fef9a71118e4ca9cc9b4523becac
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level11.unity
+    guid: 5b1d447c79f6b4449b531bc559733ad9
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level12.unity
+    guid: 070e8e0e97ad7ff4a9464b594775a899
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level13.unity
+    guid: 89b10ab96797df1419ede48cd41ca27c
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level14.unity
+    guid: a197f5c29a768394f9161e72636cd983
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level15.unity
+    guid: a0f067fd4af6aea47b11624460ab9072
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level16.unity
+    guid: c046eb2c40bdf6843b4c6334c40baa3e
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level17.unity
+    guid: 2396c269c5998c244a5ca6598f758513
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level18.unity
+    guid: 4d4d8f9ae87dce7479d6eed4ca4a40cd
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level19.unity
+    guid: c127a7beae72bb24b9ace3ee0720b513
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level20.unity
+    guid: 1096c5a6787e2e54ab56a90eed34122d
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level21.unity
+    guid: e79e9be52ab4fa54c956862c55023cda
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level22.unity
+    guid: 2ed85b8a2eb737a48a0c97d2e0acba5b
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level23.unity
+    guid: f6c335b4b25fe1b4fb801205346010e6
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level24.unity
+    guid: 8883c188a7ec81049ba16bbdfae88260
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level25.unity
+    guid: 4312917c6c53a094582ba41969afb14a
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level26.unity
+    guid: c6634bcb1e519de4393b0ebc2f654e29
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level27.unity
+    guid: bb26d87d171055f4db0eba88abc722c4
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level28.unity
+    guid: a9ca2cd26e7709042a71d2624c954071
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level29.unity
+    guid: 6377fee13777b4f4687249ab117b9845
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level30.unity
+    guid: 803dd5c6aff21e448833652090aab3b9
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level31.unity
+    guid: d0ca530cf721a664697383a1ea412121
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level32.unity
+    guid: b48c00e60500bbe4d94d1fbb73adf859
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level33.unity
+    guid: ec3c4cff7df79a4468f2eed343cc0c07
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level34.unity
+    guid: 4ae1ed5086b2f554a8586a720ae60e99
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level35.unity
+    guid: 75bccb7b6c98c76498d92f1c7fa60d3c
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level36.unity
+    guid: 76da9b39726f2044abb2e208329b0b7d
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level37.unity
+    guid: 33177f6a6897f5746b105073c8041d07
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level38.unity
+    guid: b9cb73da0e92e1d4abbf1f9ecac8489b
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level39.unity
+    guid: bdfe797602f6ef142b694baf9dec3a55
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level40.unity
+    guid: 2f53df47018c0bb4cbba4c8b5fb0db6a
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level41.unity
+    guid: 84d686e036b5e794a8c4c11c5f86c2c3
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level42.unity
+    guid: 975579c0054f9184398a3dd6f3fe645f
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level43.unity
+    guid: a6227e1f99fb74945bbd5eee30adcdfb
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level44.unity
+    guid: f9ac1c24dcad97740ba3bf6152dc3413
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level45.unity
+    guid: db46f10e5f651414e8b76ba7808a6486
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level46.unity
+    guid: f5a6e7a991683cf4c9f2ce50c4c11c31
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level47.unity
+    guid: 4e582e777e31d4143a999b9cb9dc9a86
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level48.unity
+    guid: 779fc5230c4f813449f452075ef7874c
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level49.unity
+    guid: 4f1a46fc0806581418fa9b948508f265
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level50.unity
+    guid: 273249064e864314eb87a8bf3f609855
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level51.unity
+    guid: eeea9b7e5d479ea4887cc50361a5beff
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level52.unity
+    guid: 8dc5fdc1eb9bf1a4292214c89f857e47
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level53.unity
+    guid: 137e9578512be9f4a811577f7662957f
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level54.unity
+    guid: e24d1793cf8ce2242bbd8f56c7f8d009
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level55.unity
+    guid: a5981fe4db68f0a46ae39b6c67fb3106
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level56.unity
+    guid: f7440b1f99f035f449b4cb62e8ff29a4
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level57.unity
+    guid: 8470b55853ba3b34fa4ccdd3688ff7ae
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level58.unity
+    guid: a9af22fe01748af48bcfe940e4572a12
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level59.unity
+    guid: 0fbdebe3365c60f4cb310625e6495419
+  - enabled: 1
+    path: Assets/Stickman/Stickaman Destruction/Scenes/Level60.unity
+    guid: 60b89ce37ecee3740b885a63d1ea27b2
+  m_configObjects: {}
