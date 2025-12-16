@@ -6,7 +6,7 @@ public class Stats : MonoBehaviour {
 	public Text InfiniteScore;
 	// Use this for initialization
 	void Start () {
-		InfiniteScore.text = PlayerPrefs.GetInt ("inf_Score").ToString();
+		InfiniteScore.text = SaveSystem.GetInt ("inf_Score").ToString();
 	}
 	
 	// Update is called once per frame

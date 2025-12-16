@@ -8,12 +8,12 @@ public class Loading : MonoBehaviour {
 	// Use this for initialization
 	void OnEnable() {
         
-        Invoke ("LoadScene", 2);
-		Debug.Log (PlayerPrefs.GetString ("LevelLoad"));
+		Invoke ("LoadScene", 2);
+		Debug.Log (SaveSystem.GetString ("LevelLoad"));
 	}
 	
 	// Update is called once per frame
 	void LoadScene () {
-		SceneManager.LoadScene (PlayerPrefs.GetString("LevelLoad"));
+		SceneManager.LoadScene (SaveSystem.GetString("LevelLoad"));
 	}
 }

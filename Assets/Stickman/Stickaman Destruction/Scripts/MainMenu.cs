@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+#if UNITY_WEBGL
+using Playgama;
+#endif
+
 public class MainMenu : MonoBehaviour {
 	public GameObject MenuUi;
 	public GameObject LevelSelectionUi;
@@ -19,7 +23,12 @@ public class MainMenu : MonoBehaviour {
         MenuUi.SetActive (true);
 		ExitUI.SetActive (false);
 		Loading.SetActive (false);
-		LevelSelectionUi.SetActive (false);
+		LevelSelectionUi.SetActive(false);
+
+		#if UNITY_WEBGL
+		Bridge.platform.SendMessage(Playgama.Modules.Platform.PlatformMessage.GameReady);
+		#endif
+		
 	}
 	void OnEnable()
 	{
@@ -29,7 +38,7 @@ public class MainMenu : MonoBehaviour {
 	void Update () {
 		if (Input.GetKeyDown (KeyCode.D)) 
 		{
-			PlayerPrefs.DeleteAll ();
+			SaveSystem.DeleteAll ();
 		}
 			
 	}

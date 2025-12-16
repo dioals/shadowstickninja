@@ -20,8 +20,8 @@ public class takeScreenShot : MonoBehaviour
 
 
             resolution = "" + Screen.width + "X" + Screen.height;
-            ScreenCapture.CaptureScreenshot(Application.productName + "_ScreenShot-" + resolution + "-" + PlayerPrefs.GetInt("number", 0) + ".png", 1);
-            PlayerPrefs.SetInt("number", PlayerPrefs.GetInt("number", 0) + 1);
+            ScreenCapture.CaptureScreenshot(Application.productName + "_ScreenShot-" + resolution + "-" + SaveSystem.GetInt("number", 0) + ".png", 1);
+            SaveSystem.SetInt("number", SaveSystem.GetInt("number", 0) + 1);
             //Debug.Log ("takenShot with " + resolution);
 
         }

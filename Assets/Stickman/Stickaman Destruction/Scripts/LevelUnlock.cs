@@ -11,7 +11,7 @@ public class LevelUnlock : MonoBehaviour
 	{
 		
 		//PlayerPrefs.SetInt (PreviousLevel.gameObject.name,1);
-		if (PlayerPrefs.GetInt (PreviousLevel.gameObject.name) == 1) 
+		if (SaveSystem.GetInt (PreviousLevel.gameObject.name) == 1) 
 		{
 			GetComponent<Button> ().interactable = true;
 			lockImage.SetActive (false);

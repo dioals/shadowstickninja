@@ -1,16 +1,22 @@
 {
     "$schema": "https://bridge.playgama.com/v1.27.0/schema.json",
     "advertisement": {
-        "interstitial": {
-            "preloadOnStart": true
-        },
-        "rewarded": {
-            "preloadOnStart": true
-        },
-        "useBuiltInErrorPopup": true,
-        "backfillId": ""
-    },
-    "payments": [],
-    "leaderboards": [],
-    "sendAnalyticsEvents": true
+    "useBuiltInErrorPopup": true,
+    "interstitial": {
+      "placements": [
+        {
+          "id": "end_game_int01"
+        }
+      ],
+      "preloadOnStart": true
+    }
+  },
+  "sendAnalyticsEvents": true,
+  "forciblySetPlatformId": "playgama",
+  "showFullLoadingLogo": true,
+  "device": {
+    "supportedOrientations": [
+      "landscape"
+    ]
+  }
 }

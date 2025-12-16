@@ -7,7 +7,7 @@ public class LevelComplete : MonoBehaviour {
 
 	void OnEnable()
 	{
-		PlayerPrefs.SetInt (SceneManager.GetActiveScene ().name,1);		
+		SaveSystem.SetInt (SceneManager.GetActiveScene ().name,1);		
 	}
 	
 

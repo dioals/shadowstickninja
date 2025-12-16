@@ -118,18 +118,22 @@ public class InGameUI : MonoBehaviour
 			return;
 		GameWonUi.SetActive (true);	
 		gameManager.gamewin = true;
+		if (AdController.instance != null)
+		{
+			AdController.instance.OnGameEnded();
+		}
 
 	
 	}
 	public void SkupLevel()
-    {
-		PlayerPrefs.SetInt(SceneManager.GetActiveScene().name, 1);
+	{
+		SaveSystem.SetInt(SceneManager.GetActiveScene().name, 1);
 		SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
-		PlayerPrefs.SetInt("Next", PlayerPrefs.GetInt("Next") + 1);
-		if (PlayerPrefs.GetInt("Next") == 2)
+		SaveSystem.SetInt("Next", SaveSystem.GetInt("Next") + 1);
+		if (SaveSystem.GetInt("Next") == 2)
 		{
 
-			PlayerPrefs.SetInt("Next", 0);
+			SaveSystem.SetInt("Next", 0);
 		}
 		Time.timeScale = 1.0f;
 	}
@@ -140,12 +144,16 @@ public class InGameUI : MonoBehaviour
 			if (GameOverUi.activeSelf)
 				return;
 			GameOverUi.SetActive (true);
-			PlayerPrefs.SetInt ("Fail",PlayerPrefs.GetInt("Fail")+1);
-			if (PlayerPrefs.GetInt ("Fail") == 2) {
+			SaveSystem.SetInt ("Fail",SaveSystem.GetInt("Fail")+1);
+			if (SaveSystem.GetInt ("Fail") == 2) {
 	
-				PlayerPrefs.SetInt ("Fail", 0);
+				SaveSystem.SetInt ("Fail", 0);
 			}
 			gameManager.GameOver = true;
+			if (AdController.instance != null)
+			{
+				AdController.instance.OnGameEnded();
+			}
 
 
 		
@@ -186,10 +194,10 @@ public class InGameUI : MonoBehaviour
 	public void NextLevel()
 	{
 		SceneManager.LoadSceneAsync (SceneManager.GetActiveScene().buildIndex +1);
-		PlayerPrefs.SetInt ("Next", PlayerPrefs.GetInt ("Next") + 1);
-		if (PlayerPrefs.GetInt ("Next") == 2) {
+		SaveSystem.SetInt ("Next", SaveSystem.GetInt ("Next") + 1);
+		if (SaveSystem.GetInt ("Next") == 2) {
 		
-			PlayerPrefs.SetInt ("Next", 0);
+			SaveSystem.SetInt ("Next", 0);
 		}
 	}
 	public void Stickmancrush2(){

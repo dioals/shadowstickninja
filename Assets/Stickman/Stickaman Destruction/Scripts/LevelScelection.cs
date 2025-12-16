@@ -10,7 +10,7 @@ public class LevelScelection : MonoBehaviour
 	public GameObject Loading;
 	public void InfiniteModeButton() 
 	{
-		PlayerPrefs.SetString ("LevelLoad", "InfiniteMode");
+		SaveSystem.SetString ("LevelLoad", "InfiniteMode");
 		Loading.SetActive (true);
 		this.gameObject.SetActive (false);
 	}
