@@ -6,6 +6,8 @@ using Playgama;
 public class AdController : MonoBehaviour
 {
     public static AdController instance;
+    private string interstitial_id = "end_game_int01";
+    private bool playgamaReady = false;
 
     [SerializeField] private int gamesBetweenInterstitials = 3;
 
@@ -28,7 +30,13 @@ public class AdController : MonoBehaviour
     void Start()
     {
        // Advertisements.Instance.Initialize();
-       
+       #if UNITY_WEBGL && !UNITY_EDITOR
+        // Wait for the Playgama bridge to be ready
+        // await Bridge.Initialize(); // or Bridge.IsInitialized event if that’s your API
+        Bridge.advertisement.SetMinimumDelayBetweenInterstitial(30);
+        if(Bridge.advertisement.isInterstitialSupported)
+            playgamaReady = true;        
+#endif
     }
 
 
@@ -54,8 +62,9 @@ public class AdController : MonoBehaviour
     {
 #if UNITY_WEBGL && !UNITY_EDITOR
         // Use the Playgama Bridge helper defined in playgama-bridge-unity.js.
-        var placement = "end_game_int01";
-        Bridge.advertisement.ShowInterstitial(placement);
+        if (!playgamaReady) return;
+
+        Bridge.advertisement.ShowInterstitial(interstitial_id);
 #else
         Debug.Log("Playgama interstitials are only available in WebGL builds.");
 #endif

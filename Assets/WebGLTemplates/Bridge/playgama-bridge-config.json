@@ -12,7 +12,6 @@
     }
   },
   "sendAnalyticsEvents": true,
-  "forciblySetPlatformId": "playgama",
   "showFullLoadingLogo": true,
   "device": {
     "supportedOrientations": [
